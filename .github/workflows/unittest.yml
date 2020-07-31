@@ -13,11 +13,11 @@ jobs:
         with:
           compiler: ldc-latest
 
-      - uses: WebFreak001/dub-upgrade@v0.0.5
+      - uses: WebFreak001/dub-upgrade@v0.0.7
 
       - name: Run tests
         run: dub test
 
-      - uses: WebFreak001/dub-upgrade@v0.0.5
+      - uses: WebFreak001/dub-upgrade@v0.0.7
         with:
           store: true # cache binaries
