@@ -2,11 +2,11 @@ module test;
 
 import std.stdio;
 
-version (all) {}
-else import requests;
-
 void testFun()
 {
+	version (all) {}
+	else import requests;
+
 	writeln("ok");
 }
 
