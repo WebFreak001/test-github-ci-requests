@@ -9,7 +9,7 @@ void testFun()
 	version (Windows) {}
 	else import requests;
 
-	writeln("ok after");
+	writeln("ok");
 }
 
 unittest
