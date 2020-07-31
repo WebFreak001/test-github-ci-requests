@@ -1,7 +1,9 @@
 module test;
 
 import std.stdio;
-import requests;
+
+version (Windows) {}
+else import requests;
 
 void testFun()
 {
