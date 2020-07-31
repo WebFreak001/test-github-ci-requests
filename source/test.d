@@ -4,7 +4,7 @@ import std.stdio;
 
 void testFun()
 {
-	version (all) {}
+	version (Windows) {}
 	else import requests;
 
 	writeln("ok");
