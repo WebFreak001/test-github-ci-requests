@@ -2,8 +2,7 @@ module test;
 
 import std.stdio;
 
-version (Windows) {}
-else import requests;
+version (none) import requests;
 
 void testFun()
 {
